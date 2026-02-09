@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+
+# IDE and system
+.vscode/
+.idea/
+.DS_Store
+
+# YOLO
+runs/
+*.cache
+yolo*n.pt
+output/
+
+# OCR
+Deskew/
+temp/

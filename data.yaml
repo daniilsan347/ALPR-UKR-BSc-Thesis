@@ -1,0 +1,7 @@
+path: dataset
+train: train
+val: val
+test: test
+
+nc: 4
+names: ["licence_plate", "car", "truck", "motorbike"]
