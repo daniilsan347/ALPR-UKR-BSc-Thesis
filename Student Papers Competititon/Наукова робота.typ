@@ -17,20 +17,21 @@
   #v(2fr)
 ]
 
+#include "sections/abstract.typ"
+
 #outline()
 #pagebreak()
 
-#include "sections/abstract.typ"
 #include "sections/introduction.typ"
 #include "sections/overview.typ"
 #include "sections/methodology.typ"
 #include "sections/dataset.typ"
 #include "sections/results.typ"
-
-= Обговорення
-= Висновки
+#include "sections/discussion.typ"
+#include "sections/conclusions.typ"
 
 #pagebreak()
+#set par(leading: .65em, spacing: .65em * 2)
 #bibliography(
   "bibliography.bib",
   title: [Список використаних джерел],

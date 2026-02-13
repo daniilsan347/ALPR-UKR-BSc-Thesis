@@ -40,7 +40,7 @@
   caption: [Функції корекції помилок розпізнавання номерних знаків.],
 )[
   ```py
-    OCR_READER = easyocr.Reader(["en"])
+  OCR_READER = easyocr.Reader(["en"])
   def extract_text(img):
     res = OCR_READER.readtext(img, allowlist='ABCDEHIKMNOPTXYZJ0123456789|', text_threshold=0.3)
     return [''.join(p) for p in permutations([r[1] for r in res])]
